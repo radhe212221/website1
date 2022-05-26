@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+input,
+button,
+a {
+  padding: 10px;
+}
+
+/* header starts */
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+header .logo {
+  letter-spacing: 10px;
+}
+header .menu > ul {
+  display: flex;
+}
+header .menu > ul > li {
+  position: relative;
+}
+header .menu > ul > li > ul {
+  position: absolute;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  box-shadow: 0 10px 10px black;
+  opacity: 0;
+}
+header .menu > ul > li:hover > ul {
+  opacity: 1;
+}
+header .menu a {
+  display: block;
+}
+/* header ends */
