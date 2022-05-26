@@ -48,3 +48,17 @@ header .menu a {
   display: block;
 }
 /* header ends */
+
+/* footer starts */
+footer {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+/* footer ends */
+
+.container {
+  padding: 20px;
+  background-color: red;
+}

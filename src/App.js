@@ -11,12 +11,14 @@ export default function App() {
     <BrowserRouter>
       <>
         <Header />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/services" component={Services} />
-        </Switch>
+        <div clasName="container">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/services" component={Services} />
+          </Switch>
+        </div>
         <Footer />
       </>
     </BrowserRouter>
